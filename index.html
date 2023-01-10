@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="assets/style/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style/all.min.css">
+    <link rel="stylesheet" href="assets/style/index.css">
+</head>
+
+<body>
+    <div id="isLoading">
+        <div class="lds-ripple">
+            <div></div>
+            <div></div>
+        </div>
+        <h2></h2>
+    </div>
+    <!-- start navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed start-0 end-0">
+        <div class="container">
+            <a class="navbar-brand" href="#home"><i class="fab fa-mandalorian"></i>HUB</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Category
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Movies.html">Movies</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="Tv.html">Tv</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="People.html">People</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2 bg-transparent text-white" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="btn btn-danger" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- start header  -->
+
+    <header class="home" id="home">
+        <div class="overlay">
+            <div class="welcome-msg text-center text-white">
+                <h1>Welcome To Movies Hub</h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur.</p>
+                <button class="btn fs-4 btn-outline-light w-100">Get Start</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- start reviews  -->
+    <section class="reviews">
+        <div class="container">
+            <div class="review-caption py-5">
+                <h3 class=" text-uppercase">About</h3>
+            </div>
+            <div class="review-details my-3 text-center">
+                <p class=" text-muted">We Have All Trending Movies In Movies Hub, Enjoy....</p>
+            </div>
+            <div class="row g-5 align-items-center py-5">
+                <div class="col-md-6">
+                    <div class="image rounded shadow-lg overflow-hidden">
+                        <img class="w-100" src="assets/images/spiderbg.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row g-2">
+                        <div class="col-md-6">
+                            <div class="image rounded shadow-lg overflow-hidden">
+                                <img class="w-100" src="assets/images/1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="image rounded shadow-lg overflow-hidden">
+                                <img class="w-100" src="assets/images/2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="image rounded shadow-lg overflow-hidden">
+                                <img class="w-100" src="assets/images/3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="image rounded shadow-lg overflow-hidden">
+                                <img class="w-100" src="assets/images/4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark py-5 text-center">
+        <div class="container">
+            <h6>Copyright &copy; Reserved <span>AMIT Learning</span> & <span>Yousef El-khawanki</span></h6>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.6.3.min.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
